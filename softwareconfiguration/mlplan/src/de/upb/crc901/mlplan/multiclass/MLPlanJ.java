@@ -51,7 +51,7 @@ public class MLPlanJ extends AbstractClassifier
 		implements Classifier, OptionHandler, IObservableGraphAlgorithm<TFDNode, String>, ILoggingCustomizable {
 
 	/* logging */
-	private Logger logger = LoggerFactory.getLogger(MLPlan.class);
+	private Logger logger = LoggerFactory.getLogger(MLPlanJ.class);
 	private String loggerName;
 
 	/* configuration variables */

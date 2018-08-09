@@ -10,7 +10,6 @@ import org.openml.apiconnector.io.OpenmlConnector;
 import org.openml.apiconnector.xml.DataSetDescription;
 
 import de.upb.crc901.mlplan.multiclass.DefaultPreorder;
-import de.upb.crc901.mlplan.multiclass.MLPlan;
 import de.upb.crc901.mlplan.multiclass.MLPlanJ;
 import jaicore.ml.WekaUtil;
 import weka.classifiers.Evaluation;
