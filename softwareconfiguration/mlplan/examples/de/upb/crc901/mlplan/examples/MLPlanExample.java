@@ -37,7 +37,7 @@ public class MLPlanExample {
 		List<Instances> split = WekaUtil.getStratifiedSplit(data, new Random(0), .7f);
 
 		/* initialize mlplan, and let it run for 30 seconds */
-		int timeoutInSeconds = 300;
+		int timeoutInSeconds = 600;
 		MLPlanWEKAClassifier mlplan = new MLPlanWEKAClassifier();
 		mlplan.setLoggerName("mlplan");
 
